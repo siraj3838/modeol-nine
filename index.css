@@ -194,8 +194,9 @@ h3{
 .image-content h5{
     font-size: 3.5rem;
 }
-.ten-years-down{
-    font-size: 1.5rem;
+.ten-year-second-line{
+    font-size: 1rem;
+    color: #fff;
 }
 
 
@@ -266,7 +267,21 @@ h3{
     .banner-content{
         margin-bottom: 10px;
     }
+    .love-container{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .love-image img{
+        width: 100%;
+        margin: 5px;
+    }
+    .image-content{
+        position: static;
+        max-width: 300px;
+        padding: 40px 0 40px 0;
+    }
     
+
 }
 
 /*this is medium device*/
@@ -298,6 +313,7 @@ h3{
     .featuresdes{
         text-align: center;
     }
+
 }
 
 
