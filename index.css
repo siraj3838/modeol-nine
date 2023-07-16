@@ -145,13 +145,58 @@ h3{
     font-weight: 700;
 }
 
+/*this is love and enjoy css*/
+
+.love-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+    margin-top: 130px;
+}
 
 
+.love-content-again-conent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px 60px 30px 30px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
 
+ h4{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+.love-des{
+    margin-top: 20px;
+}
 
-
-
-
+.love-image>img{
+    width: 100%;
+    margin-left: 120px;
+}
+.image-content{
+    background-color: #FF900E;
+    border: 0;
+    border-radius: 8px;
+    width: 250px;
+    height: 150px;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    bottom: 92px;
+    padding: 40px;
+}
+.image-content h5{
+    font-size: 3.5rem;
+}
+.ten-years-down{
+    font-size: 1.5rem;
+}
 
 
 
