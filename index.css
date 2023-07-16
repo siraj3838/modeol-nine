@@ -25,7 +25,7 @@ header{
 
 /*this is headline section*/
 .head-contain{
-    color: #3f0259;
+    color: #ff0080;
     font-size: 2rem;
 }
 .head-first-line-first-letter{
@@ -48,7 +48,7 @@ header{
 }
 nav ul{
     display: flex;
-    gap: 20px;
+    gap: 50px;
 }
 nav li{
     list-style: none;
@@ -58,6 +58,9 @@ nav ul li a{
     text-decoration: none;
     color: #004345;
     font-size: 1.2rem;
+}
+nav ul li a:hover{
+    color: #ff0080;
 }
 
 /*this is Brand Group section*/
@@ -141,5 +144,129 @@ h3{
     font-size: 3rem;
     font-weight: 700;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+    .features-content{
+        margin: 10px auto;
+    }
+    nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    li{
+        margin: -5px;
+    }
+    .features-container{
+        flex-direction: column-reverse;
+    } 
+    .features-content{
+        margin: 15px;
+        text-align: center;
+    }
+    .features-image{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .banner-container>img{
+        margin-top: 0;
+    }
+    .banner-content{
+        margin-bottom: 10px;
+    }
+    
+}
+
+/*this is medium device*/
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .header{
+        padding: 20px;
+    }
+    nav{
+        gap: 10px;
+    }
+    nav>ul{
+        gap: 30px;
+    }
+    .features-container{
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+    .banner-description{
+        margin: 15px 5px;
+    }
+    .banner-container>img{
+        margin-top: -9px;
+    }
+    .features-content{
+        text-align: center;
+        margin: 1px;
+    }
+    .featuresdes{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
