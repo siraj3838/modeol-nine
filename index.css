@@ -1,0 +1,110 @@
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+header{
+    background-color:rgba(255, 144, 14, 0.10);
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/*this is headline section*/
+.head-contain{
+    color: #3f0259;
+    font-size: 2rem;
+}
+.head-first-line-first-letter{
+    color: #05631e;
+    font-size: 3rem;
+}
+.head-second-first-letter{
+    color: #0f856d;
+    font-size: 3rem;
+}
+
+
+
+/*this is nav section*/
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #004345;
+    font-size: 1.2rem;
+}
+
+/*this is Brand Group section*/
+
+
+.banner-content{
+    max-width: 1440px;
+    text-align: center;
+    margin: 50px auto;
+}
+.banner-container img{
+    margin-top: 20px;
+    width: 100%;
+}
+/*this is Brand Head and Blog content*/
+.banner-head{
+    font-size: 3.5rem;
+}
+.brand-first-line{
+    color: #ff0080;
+}
+.brand-second-line{
+    color: #ff00bf;
+}
+
+.banner-description{
+    color:  #727272;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
