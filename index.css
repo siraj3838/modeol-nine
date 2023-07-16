@@ -11,7 +11,7 @@
 
 header{
     background-color:rgba(255, 144, 14, 0.10);
-    padding: 20px;
+    padding: 20px 200px;
 }
 
 
@@ -48,7 +48,6 @@ header{
 }
 nav ul{
     display: flex;
-    justify-content: center;
     gap: 20px;
 }
 nav li{
@@ -65,11 +64,11 @@ nav ul li a{
 
 
 .banner-content{
-    max-width: 1440px;
+    max-width: 880px;
     text-align: center;
     margin: 50px auto;
 }
-.banner-container img{
+.banner-container>img{
     margin-top: 20px;
     width: 100%;
 }
@@ -101,10 +100,46 @@ nav ul li a{
     cursor: pointer;
 }
 
+/*main section start*/
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
 
 
+/*this our features section*/
 
+.features-container{
+    display: flex;
+    align-items: center;
+}
+.features-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
 
-
+.features-content{
+    text-align: left;
+    margin-left: 76px;
+}
+.featuresdes{
+    text-align: left;
+}
+.features-first-line{
+    color: #727272;
+    font-size: 3rem;
+    font-weight: 500;
+}
+h3{
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.features-first-line{
+    color: #FF900E;
+    font-size: 3rem;
+    font-weight: 700;
+}
 
 
