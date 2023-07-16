@@ -171,6 +171,10 @@ h3{
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
+h6{
+    font-size: 1.2rem;
+    color: #131313;
+}
 .love-des{
     margin-top: 20px;
 }
@@ -193,10 +197,45 @@ h3{
 }
 .image-content h5{
     font-size: 3.5rem;
+    font-weight: 700;
 }
 .ten-year-second-line{
     font-size: 1rem;
     color: #fff;
+    font-weight: 500;
+}
+
+/*this facts css*/
+
+.fact-headline{
+    font-size: 2.7rem;
+    color: #131313;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.fact-description{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.facts-container{
+    padding: 10px;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 124px;
+    margin: 100px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 45px;
+    width: 241px;
 }
 
 
@@ -226,15 +265,7 @@ h3{
 
 
 
-
-
-
-
-
-
-
-
-
+/*this is mobile device*/
 
 
 @media screen and (max-width: 576px) {
@@ -246,10 +277,10 @@ h3{
     }
     nav{
         flex-direction: column;
-        gap: 15px;
+        gap: 20px;
     }
-    li{
-        margin: -5px;
+    nav ul{
+        gap: 25px;
     }
     .features-container{
         flex-direction: column-reverse;
@@ -280,7 +311,18 @@ h3{
         max-width: 300px;
         padding: 40px 0 40px 0;
     }
-    
+    .box-container{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px;
+    }
+    .fact-headline{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .fact-description{
+        text-align: center;
+    }
 
 }
 
@@ -313,6 +355,24 @@ h3{
     .featuresdes{
         text-align: center;
     }
+    .love-container{
+        gap: 30px;
+        margin-top: 40px;
+    }
+    .love-content{
+        margin-left: 15px;
+    }
+    .love-image{
+        margin-right: 15px;
+    }
+    .love-image img{
+        margin-left: 0px;
+    }
+    .image-content{
+        position: static;
+        max-width: 300px;
+    }
+
 
 }
 
