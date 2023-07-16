@@ -333,9 +333,17 @@ h6{
         flex-direction: column;
         margin-top: 20px;
     }
+    .love-content{
+        margin-left: 20px;
+    }
     .love-image img{
         width: 100%;
-        margin: 5px;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .love-image{
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .image-content{
         position: static;
